@@ -1,0 +1,9 @@
+# chan thu muc cau hinh cua vs code
+.vscode/
+
+# chan cac file chay (file thuc thi sau khi compile) cua C/C++
+code
+codec
+*.out
+*.exe
+*.o
