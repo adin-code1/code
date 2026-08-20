@@ -29,7 +29,7 @@ void bai_3(){
     
 }
 
-int main(){
+void bai_4(){
     int a, b;
     cin >> a >> b;
     
