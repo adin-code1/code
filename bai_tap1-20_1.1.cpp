@@ -15,6 +15,6 @@ int main(){
     cout << " nhap gia tri cua x vao ";
     long long x;
     cin >> x;
-    long long h = pow(x, 3) + (3* pow(x, 2)) + x + 1;     
+    long long h = x * x * x + 3 * x * x + x + 1;
     cout << h << endl;
 }
