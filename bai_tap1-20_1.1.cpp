@@ -90,3 +90,16 @@ void bai_11(){
     long long Sn = n*(n+1);
     cout << Sn << endl;
 }
+
+int main(){
+    long long n;
+    cin >> n;
+    if((n % 2 == 0)){
+        long long Sn = n/2;
+        cout << Sn << endl;
+    }
+    else{
+        long long N = (n - 1) / 2 - n;
+        cout << N << endl;
+    }
+}
