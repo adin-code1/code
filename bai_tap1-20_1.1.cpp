@@ -40,3 +40,18 @@ void bai_4(){
     cout << tong << " " << hieu << " " << tich << " " << fixed << setprecision(2) << thuong << endl;
     
 }
+
+void bai_5(){
+    int r;
+    cin >> r;
+    float c = 2 * 3.14 * r;
+    float P = 3.14 * r * r;
+    cout << fixed << setprecision(2) << c << " " << P << endl;
+} 
+
+void bai_6(){
+    float x1, x2, y1, y2;
+    cin >> x1 >> x2 >> y1 >> y2;
+    float d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    cout << fixed << setprecision(2) << d << endl;
+}
