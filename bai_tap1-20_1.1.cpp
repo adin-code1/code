@@ -83,3 +83,10 @@ void bai_10(){
     float Sn = n/(n+1);
     cout << fixed << setprecision(2) << Sn << endl;
 }
+
+void bai_11(){
+    long long n;
+    cin >> n;
+    long long Sn = n*(n+1);
+    cout << Sn << endl;
+}
