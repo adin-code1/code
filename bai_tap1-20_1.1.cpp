@@ -69,3 +69,17 @@ void bai_8(){
     long long Sn = n *(n + 1) /2;
     cout << Sn << endl;
 }
+
+void bai_9(){
+    unsigned long long n;
+    cin >> n;
+    long long Sn = n *(n + 1) * (2 * n + 1) / 6;
+    cout << Sn << endl;
+}
+
+void bai_10(){
+    float n;
+    cin >> n;
+    float Sn = n/(n+1);
+    cout << fixed << setprecision(2) << Sn << endl;
+}
