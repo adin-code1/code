@@ -56,9 +56,16 @@ void bai_6(){
     cout << fixed << setprecision(2) << d << endl;
 }
 
-int main(){
+void bai_7(){
     float C;
     cin >> C;
     float F = (C * 9 / 5) + 32;
     cout << fixed << setprecision(2) << F << endl;
+}
+
+void bai_8(){
+    unsigned long long n;
+    cin >> n;
+    long long Sn = n *(n + 1) /2;
+    cout << Sn << endl;
 }
