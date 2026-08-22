@@ -55,3 +55,10 @@ void bai_6(){
     float d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
     cout << fixed << setprecision(2) << d << endl;
 }
+
+int main(){
+    float C;
+    cin >> C;
+    float F = (C * 9 / 5) + 32;
+    cout << fixed << setprecision(2) << F << endl;
+}
