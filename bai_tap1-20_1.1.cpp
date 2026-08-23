@@ -111,7 +111,7 @@ void bai_13(){
     cout << n << endl;
 }
 
-int main(){
+void bai_14(){
     int a, b;
     cin >> a >> b;
     int n = (a + b - 1)/ b * b;
