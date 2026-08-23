@@ -91,7 +91,7 @@ void bai_11(){
     cout << Sn << endl;
 }
 
-int main(){
+void bai_12(){
     long long n;
     cin >> n;
     if((n % 2 == 0)){
