@@ -103,3 +103,17 @@ void bai_12(){
         cout << N << endl;
     }
 }
+
+void bai_13(){
+    int a, b;
+    cin >> a >> b;
+    int n = (a / b) * b;
+    cout << n << endl;
+}
+
+int main(){
+    int a, b;
+    cin >> a >> b;
+    int n = (a + b - 1)/ b * b;
+    cout << n << endl;
+}
