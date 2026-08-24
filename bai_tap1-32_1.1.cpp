@@ -118,6 +118,14 @@ void bai_14(){
     cout << n << endl;
 }
 
-int main(){
-    
+void bai_15(){
+    int n;
+    cin >> n;
+    if((n % 3 == 0) && (n % 5 == 0)){
+        cout << " 1 " << endl;
+    }
+    else{
+        cout << " 0 " << endl;
+
+    }
 }
