@@ -130,7 +130,7 @@ void bai_15(){
     }
 }
 
-int main(){
+void bai_16(){
     int n;
     cin >> n;
     if(n > 0){
