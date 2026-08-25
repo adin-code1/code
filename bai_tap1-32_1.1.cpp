@@ -129,3 +129,22 @@ void bai_15(){
 
     }
 }
+
+int main(){
+    int n;
+    cin >> n;
+    if(n > 0){
+        if((n % 400 == 0) || (n % 4 == 0) && (n != 100)){
+            cout << " YES " << endl;
+        }
+        else if( n % 2 == 1){
+            cout << " NO " << endl;
+        }
+        else if( n % 2 == 0){
+            cout << " NO " << endl;
+        }
+    }
+    else{
+        cout << " INVAID " << endl;
+    }
+}
