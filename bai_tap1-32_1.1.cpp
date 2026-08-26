@@ -148,3 +148,28 @@ void bai_16(){
         cout << " INVAID " << endl;
     }
 }
+
+int main(){
+    int thang, nam;
+    cin >> thang, nam;
+    switch(thang){
+        case 1 : case 3: case 5: case 7: case 8: case 10: case 12:
+        cout << " 31 " << endl;
+        break;
+        case 4: case 6: case 9: case 11:
+        cout << " 30 " << endl;
+        break;
+        case 2:
+            if((nam % 4 == 0) || (nam % 400 == 0) && (nam != 100)){
+                cout << " 29 " << endl;
+            }
+            else{
+                cout << " 28 " << endl;
+            }
+        break;
+        default:
+        cout << " INVALID " << endl;
+    }
+    
+    
+}
