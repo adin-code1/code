@@ -149,7 +149,7 @@ void bai_16(){
     }
 }
 
-int main(){
+void bai_17(){
     int thang, nam;
     cin >> thang, nam;
     switch(thang){
@@ -173,3 +173,4 @@ int main(){
     
     
 }
+
