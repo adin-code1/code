@@ -177,7 +177,7 @@ void bai_17(){
 void bai_18(){
     char n;
     cin >> n;
-    if((n >= 65 && n <= 122)){
+    if((n >= 97 && n <= 122)){
         cout << " YES " << endl;
     }
     else{
@@ -189,6 +189,17 @@ void bai_19(){
     char n;
     cin >> n;
     if(n >= 65 && n <= 90){
+        cout << " YES " << endl;
+    }
+    else{
+        cout << " NO " << endl;
+    }
+}
+
+void bai_20(){
+    char n;
+    cin >> n;
+    if((n >= 65 && n <= 122)){
         cout << " YES " << endl;
     }
     else{
