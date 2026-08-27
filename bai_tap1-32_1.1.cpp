@@ -174,3 +174,13 @@ void bai_17(){
     
 }
 
+void bai_18(){
+    char n;
+    cin >> n;
+    if((n >= 65 && n <= 122)){
+        cout << " YES " << endl;
+    }
+    else{
+        cout << " NO " << endl;
+    }
+}
