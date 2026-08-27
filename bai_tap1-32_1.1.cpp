@@ -306,7 +306,7 @@ void bai_27(){
     cout << nam << " " << tuan << " " << ngay << endl;
 }
 
-int main(){
+void bai_28_(){
     float a, b, c;
     cin >> a >> b >> c;
     float n = (b * b) - (4 * a * c);
@@ -324,4 +324,12 @@ int main(){
         cout << " NO " << endl;
     }
     
+}
+
+void bai_29(){
+    float a, b;
+    cin >> a >> b;
+    float n = b - a;
+    int u = round(n);
+    cout << u << endl;
 }
