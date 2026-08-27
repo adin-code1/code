@@ -206,3 +206,14 @@ void bai_20(){
         cout << " NO " << endl;
     }
 }
+
+int main(){
+    char n;
+    cin >> n;
+    if(n >= 48 && n <= 57){
+        cout << " YES " << endl;
+    }
+    else{
+        cout << " NO " << endl;
+    }
+}
