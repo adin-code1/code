@@ -184,3 +184,14 @@ void bai_18(){
         cout << " NO " << endl;
     }
 }
+
+void bai_19(){
+    char n;
+    cin >> n;
+    if(n >= 65 && n <= 90){
+        cout << " YES " << endl;
+    }
+    else{
+        cout << " NO " << endl;
+    }
+}
