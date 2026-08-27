@@ -352,7 +352,7 @@ void bai_30(){
     }
 }
 
-int main(){
+void bai_31(){
     float y, g, h, j;
     cin >> y >> g >> h >> j;
     int n = ((y * 3) + (g * 2) + h + j) / 6;
