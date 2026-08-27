@@ -274,7 +274,7 @@ void bai_25(){
     
 }
 
-int main(){
+void bai_26(){
     int a, b, c;
     cin >> a >> b >> c;
     if(a + b > c){
@@ -294,4 +294,34 @@ int main(){
     else{
         cout << " INVALID " << endl;
     }
+}
+
+void bai_27(){
+    int n;
+    cin >> n;
+    int nam = n / 365;
+    int tuan_du = n % 365;
+    int tuan = tuan_du / 7;
+    int ngay = tuan_du % 7;
+    cout << nam << " " << tuan << " " << ngay << endl;
+}
+
+int main(){
+    float a, b, c;
+    cin >> a >> b >> c;
+    float n = (b * b) - (4 * a * c);
+
+    if(n > 0){
+        float h1 = (-b + sqrt(n)) / (2 * a);
+        float h2 = (-b - sqrt(n)) / (2 * a);
+        cout << fixed << setprecision(2) <<  h1 << " " << setprecision(2) << h2 << endl;
+    }    
+    else if(n == 0){
+        float g = b / (2 * a);
+        cout << fixed << setprecision(2) << g << endl;
+    }
+    else{
+        cout << " NO " << endl;
+    }
+    
 }
