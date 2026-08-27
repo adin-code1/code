@@ -230,3 +230,34 @@ void bai_22(){
     }
 }
 
+void bai_23(){
+    char n;
+    cin >> n;
+    if(n >= 97 && n <= 122){
+        char h = n - 32;
+        cout << h << endl;
+    }
+    else{
+        cout << n << endl;
+    }
+}
+
+void bai_24(){
+    char n;
+    cin >> n;
+    if(n >= 65 && n <= 89){
+        char m = n + 33;
+        cout << m << endl;
+    }
+    else if(n == 90){
+        char h = n + 7;
+        cout << h << endl;
+    }
+    else if(n >= 49 && n <= 57){
+        char g = n + 60;
+        cout << g << endl;
+    }
+    else{
+        cout << " INVALID " << endl;
+    }
+}
