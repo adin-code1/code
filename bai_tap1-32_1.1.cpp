@@ -372,3 +372,44 @@ void bai_31(){
         cout << " INVALID " << endl;
     }
 }
+
+void bai_32_het(){
+    int a, s, d, f, g;
+    cin >> a >> s >> d >> f >> g;
+    long long s1, s2;
+
+    if(a < s){
+        s1 = a;
+        s2 = s;
+    }
+    else{
+        s1 = s;
+        s2 = a;
+    }
+
+    if(d < s1){
+        s2 = s1;
+        s1 = d;
+    }
+    else if(d < s2){
+        s2 = d;
+    }
+
+    if(f < s1){
+        s2 = s1;
+        s1 = f;
+    }
+    else if(f < s2){
+        s2 = f;
+    }
+
+    if(g < s1){
+        s2 = s1;
+        s1 = g;
+    }
+    else if(g < s2){
+        s2 = g;
+    }
+
+    cout << s2 << endl;
+}
