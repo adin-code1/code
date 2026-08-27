@@ -207,7 +207,7 @@ void bai_20(){
     }
 }
 
-int main(){
+void bai_21(){
     char n;
     cin >> n;
     if(n >= 48 && n <= 57){
@@ -217,3 +217,16 @@ int main(){
         cout << " NO " << endl;
     }
 }
+
+void bai_22(){
+    char n;
+    cin >> n;
+    if(n >= 65 && n <= 90){
+        char k = n + 32;
+        cout << k << endl;
+    }
+    else{
+        cout << n << endl;
+    }
+}
+
