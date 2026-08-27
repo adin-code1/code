@@ -351,3 +351,24 @@ void bai_30(){
         cout << " NOSOL " << endl;
     }
 }
+
+int main(){
+    float y, g, h, j;
+    cin >> y >> g >> h >> j;
+    int n = ((y * 3) + (g * 2) + h + j) / 6;
+    if((n >= 8) && (n < 11)){
+        cout << " GIOI " << endl;
+    }
+    else if((n < 8) && (n >= 6.5)){
+        cout << " KHA " << endl;
+    }
+    else if((n < 6.5) && (n >= 5)){
+        cout << " TRUNG BINH " << endl;
+    }
+    else if((n > 5) && (n <= 0)){
+        cout << " YEU " << endl;
+    }
+    else{
+        cout << " INVALID " << endl;
+    }
+}
