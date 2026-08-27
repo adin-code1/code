@@ -333,3 +333,21 @@ void bai_29(){
     int u = round(n);
     cout << u << endl;
 }
+
+void bai_30(){
+    int a, b, c;
+    cin >> a >> b >> c;
+    int q = a/b, w = b/c, e = c/a;
+    if(q == c){
+        cout << " / " << endl;
+    }
+    else if(w == a){
+        cout << " / " << endl;
+    }
+    else if(e == b){
+        cout << " / " << endl;
+    }
+    else{
+        cout << " NOSOL " << endl;
+    }
+}
