@@ -413,3 +413,9 @@ void bai_32_het(){
 
     cout << s2 << endl;
 }
+
+int main(){
+
+    
+    return 0;
+}
