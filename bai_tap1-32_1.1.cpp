@@ -22,8 +22,9 @@ void bai_2(){
 
 void bai_3(){
     int a, b, c;
-    a = abs(a);   b = abs(b);    c = abs(c);
+   
     cin >> a >> b >> c;
+    a = abs(a);   b = abs(b);    c = abs(c);
     int S = a*(b + c) + b*(a + c);
     cout << S << endl;
     
