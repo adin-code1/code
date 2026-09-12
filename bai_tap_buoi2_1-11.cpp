@@ -3,7 +3,7 @@
 #include<iomanip>
 using namespace std;
 
-void bai_tap_22A(){
+void bai_tap_224A(){
     long long a, b, c;
     cin >> a >> b >> c;
     long long v = sqrt(a * b * c);
@@ -12,3 +12,9 @@ void bai_tap_22A(){
     cout << f << endl;
 }
 
+void bai_tap_50A(){
+    int m, n;
+    cin >> m >> n;
+    int hinh = (m * n)/2;
+    cout << hinh << endl;
+}
