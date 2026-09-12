@@ -18,3 +18,12 @@ void bai_tap_50A(){
     int hinh = (m * n)/2;
     cout << hinh << endl;
 }
+
+int main(){
+    int n, m, a;
+    cin >> n >> m >> a;
+    long long q = (n + a -1)/a;
+    long long w = (m + a -1)/a;
+    long long k = q + w;
+    cout << k << endl;
+}
