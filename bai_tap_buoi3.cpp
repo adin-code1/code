@@ -29,3 +29,12 @@ void bai3(){
     }
 }
 
+int main(){
+    float n;
+    cin >> n;
+    float g = 1;
+    for(float i = 1; i <= n; i++){
+        g /= i;
+        cout << fixed << setprecision(3) << g << endl;
+    }
+}
