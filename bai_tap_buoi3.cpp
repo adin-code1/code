@@ -29,7 +29,7 @@ void bai3(){
     }
 }
 
-int main(){
+void bai4(){
     float n;
     cin >> n;
     float g = 1;
