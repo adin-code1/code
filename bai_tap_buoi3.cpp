@@ -38,3 +38,14 @@ void bai4(){
         cout << fixed << setprecision(3) << g << endl;
     }
 }
+
+int main(){
+    float n;
+    cin >> n;
+    float h = 0;
+    for(int i = 2; i <= n; i += 2){
+        h += 1.0 / i;
+        
+    }
+    cout << fixed << setprecision(2) << h << endl; 
+}
