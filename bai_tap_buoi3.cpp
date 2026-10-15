@@ -39,7 +39,7 @@ void bai4(){
     }
 }
 
-int main(){
+void bai5(){
     float n;
     cin >> n;
     float h = 0;
