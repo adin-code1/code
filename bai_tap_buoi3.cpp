@@ -49,3 +49,7 @@ void bai5(){
     }
     cout << fixed << setprecision(2) << h << endl; 
 }
+
+int main(){
+    return 0;
+}
